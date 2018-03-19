@@ -14,7 +14,7 @@ class Controller {
 		if (!isset($_GET['search']))
 		{
 			// aucun artis
-			$artist = $this->model->getArtistList();
+			$artist = $this->model->getArtistList($_GET['search']);
 			include 'view/artistsearch.php';
 		}
 		else
