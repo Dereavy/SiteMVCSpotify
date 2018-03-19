@@ -10,7 +10,7 @@
     <div id="header" class="container">
     <h1>Recherche d'artiste sur Spotify</h1>
     <form class="recherche" method="post">
-      <input type="search" placeholder="Rechercher" class="searchBox">
+      <input type="search" placeholder="Rechercher" class="searchBox" name="search">
       <input type="image" class="searchIcon" src="../ressources/images/magnifying-glass.png" />
     </form>
     </div>  
